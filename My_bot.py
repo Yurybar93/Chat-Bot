@@ -66,7 +66,6 @@ def callback_lang(call):
     user_id = call.from_user.id
     lang_code = call.data.split('_')[1]
     user_state[user_id]['language'] = lang_code
-    # Respond to the user with the selected language or further instructions
     bot.send_message(call.message.chat.id, f"Language set to {lang_code}")
 
 
