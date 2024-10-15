@@ -7,7 +7,7 @@ import mysql.connector
 
 dbconfig = {'host': 'localhost',
             'user': 'root',
-            'password': '355Aa210@',
+            'password': 'your_password',
             'database': 'movies'}
 
 connection = mysql.connector.connect(**dbconfig)
