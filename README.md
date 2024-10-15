@@ -1,27 +1,7 @@
-## Selenium java framework
+# Movie Search Telegram Bot
 
+This project is a multilingual Telegram bot designed to search and analyze movies based on keywords, genres, and release years using a MySQL database. The bot supports English, Russian, and German languages and provides features such as keyword search, genre and year search, and viewing popular search queries. To set up this project, ensure you have Python 3.7 or later, a MySQL database server, and a Telegram account with a bot token from BotFather. 
 
-### Installation
+To get started, clone the repository using `git clone https://github.com/yourusername/movie-search-bot.git` and navigate into the project directory with `cd movie-search-bot`. Set up your database using the provided `database_setup.sql` file to create the necessary schema. You can execute the SQL file by connecting to your MySQL server and running `mysql -u root -p < database_setup.sql`. Configure your database connection by setting environment variables for `DB_HOST`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME`, or create a `config.json` file with these details.
 
-- install [java 17](https://www.oracle.com/java/technologies/downloads/)
-- install [Gradle 8.5](https://gradle.org/releases/)
-- install Allure:
-    * 'brew install allure' for Mac
-    * 'scoop install allure' for Windows
-- install dependencies
-    * './gradlew build'
-
-
-### Run tests
-
-- For run tests using testng need to do actions
-
-  1.Open Settings ->Build,Executions,Deployment ->Build Tools->Gradle
-  2.Change Build and run  using to Intellij IDEA
-
-  3.Change Run tests using to intellij IDEA
-
-  4.Apply and Ok
-- Run all tests ./gradlew clean test
-
-- Run tests using task ./gradlew clean nameOfTask(task name can be found in build.gradle file)
+Next, install the project dependencies with `pip install -r requirements.txt`. Set up your Telegram bot by creating one through the BotFather and obtaining your bot token. Add your token as an environment variable using `export TELEGRAM_TOKEN='your_bot_token'`. To run the bot, execute `python bot.py`. Once the bot is running, you can open Telegram and interact with it to search for movies.
