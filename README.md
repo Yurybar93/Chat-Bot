@@ -20,10 +20,9 @@ This project is a multilingual Telegram bot designed to search and analyze movie
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/Yurybar93/Chat-Bot.git
 cd Chat-Bot
-
 
 ### 2. Create and Configure the Database
 Use the provided database_setup.sql file to set up your database schema. Ensure your MySQL server is running and accessible.
@@ -31,22 +30,25 @@ Use the provided database_setup.sql file to set up your database schema. Ensure 
 Connect to your MySQL server and execute the SQL file to set up the database schema and tables
 
 ### 3. Configure your environment variables for database credentials. This method keeps sensitive information out of your codebase:
-
+```
 export DB_HOST='localhost'
 export DB_USER='yourusername'
 export DB_PASSWORD='yourpassword'
 export DB_NAME='movies'
-
+```
 ### 4. Install Dependencies
-Ensure you have all necessary Python packages installed. This can be done through:
-
-### 4. Set Up the Telegram Bot
+Ensure you have all necessary Python packages installed. You can install them with:
+```
+pip install -r requirements.txt
+```
+### 5. Set Up the Telegram Bot
 Create your bot using the BotFather and obtain a bot token.
 Add your token as an environment variable
-
+```
 export TELEGRAM_TOKEN='your_bot_token'
-
-### 5. Run the Bot
+```
+### 6. Run the Bot
 With everything set up, you can now run the bot:
-
+```
 python bot.py
+```
