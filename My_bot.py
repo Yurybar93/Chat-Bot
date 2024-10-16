@@ -13,7 +13,7 @@ dbconfig = {'host': 'localhost',
 connection = mysql.connector.connect(**dbconfig)
 cursor = connection.cursor()
 
-TOKEN = '7398033193:AAE9iO70cjTBXVRhz9tcOAt7UWmEN4PZJQ4'
+TOKEN = 'your_bot_token'
 bot = telebot.TeleBot(TOKEN)
 
 user_state = {}
