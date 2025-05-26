@@ -1,13 +1,15 @@
 import asyncio
 from loader import dp, bot
 from utils.logger import logger
-from handlers import start, actions  
+from handlers import start, actions, menu, search_menu
 
 async def main():
     try:
         logger.info("Starting bot...")
         dp.include_router(start.router)
         dp.include_router(actions.router)
+        dp.include_router(menu.router) 
+        dp.include_router(search_menu.router)
         await dp.start_polling(bot)
     except (KeyboardInterrupt, SystemExit):
         logger.info("Bot stopped by user.")

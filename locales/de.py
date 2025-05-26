@@ -11,5 +11,11 @@ texts = {
     "text_main_menu": "Wählen Sie eine Option:",
     "find_movie": "🎬 Film finden",
     "favorites": "⭐ Favoriten",
-    "settings": "⚙ Einstellungen"
+    "settings": "⚙ Einstellungen",
+    "search_by_genre_year": "🎞 Nach Genre und Jahr",
+    "search_by_title": "🔤 Nach Titel",
+    "search_by_keyword": "🧩 Nach Stichwort",
+    "search_popular": "📈 Beliebte Suchanfragen",
+    "search_prompt": "Wählen Sie aus, wie Sie nach dem Film suchen möchten:",
+    "back_to_main_menu": "⬅️ Zurück zum Menü"
 }

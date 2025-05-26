@@ -11,5 +11,11 @@ texts = {
     "text_main_menu": "Choose an option:",
     "find_movie": "🎬 Find Movie",
     "favorites": "⭐ Favorites",
-    "settings": "⚙ Settings"
+    "settings": "⚙ Settings",
+    "search_by_genre_year": "🎞 Search by genre and year",
+    "search_by_title": "🔤 Search by title",
+    "search_by_keyword": "🧩 Search by keyword",
+    "search_popular": "📈 Popular queries",
+    "search_prompt": "How would you like to search for a movie?",
+    "back_to_main_menu": "⬅️ Back to menu"
 }
