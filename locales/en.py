@@ -23,6 +23,12 @@ texts = {
     "back_to_main_menu_prompt": "Returning to main menu...",
     "choose_genre": "Please choose a genre:",
     "enter_year": "Now enter a year (e.g., 2021):",
-    "search_by_genre_year_result": "Here are some results based on your genre and year:"
+    "search_by_genre_year_result": "Here are some results based on your genre and year:",
+    "enter_movie_title": "Please enter the movie title.",
+    "times_searched": "times searched",
+    "enter_keyword": "Enter a keyword (e.g., actor, genre, title...)",
+    "searching_by_genre_year": "🔍 Searching for movies: genre <b>{genre}</b>, year <b>{year}</b>",
+    "movie_details_format": "<b>{title}</b> ({year})\n🎭 Genres: {genres}\n🎬 Director(s): {directors}\n🎤 Cast: {cast}\n⭐️ IMDb: {rating}\n\n📝 {plot}",
+    "movie_not_found": "❌ Movie details not found."
 
 }

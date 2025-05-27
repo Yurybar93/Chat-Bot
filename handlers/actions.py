@@ -42,5 +42,5 @@ async def set_language(message: types.Message, state: FSMContext):
     else:
         await message.answer(get_text("language_not_supported", DEFAULT_LANGUAGE))
 
-    #await state.clear()
+   
 

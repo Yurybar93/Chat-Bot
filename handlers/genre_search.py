@@ -1,19 +1,18 @@
 from aiogram import Router, types, F
 from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import StatesGroup, State
 from utils.texts import get_text
 from utils.db import get_movies_by_genre_and_year
 from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from utils.genre_map import GENRE_TRANSLATIONS
+from states import SearchGenreYear
 
 router = Router()
 
-class SearchGenreYear(StatesGroup):
-    choosing_genre = State()
-    choosing_year = State()
-
 def get_localized_genres(language: str) -> list[str]:
     return [v[language] for v in GENRE_TRANSLATIONS.values()]
+
+def get_localized_genre(english_genre: str, language: str) -> str:
+    return GENRE_TRANSLATIONS.get(english_genre, {}).get(language, english_genre)
 
 def get_english_genre(localized: str, user_lang: str) -> str:
     for eng, langs in GENRE_TRANSLATIONS.items():
@@ -48,14 +47,24 @@ async def get_year_input(message: types.Message, state: FSMContext):
 async def finish_search(message: types.Message, state: FSMContext):
     data = await state.get_data()
     language = data.get("language", DEFAULT_LANGUAGE)
-    genre = data.get("selected_genre")  # уже на английском
+    genre = data.get("selected_genre") 
     year = message.text.strip()
 
     if not year.isdigit() or not (1900 <= int(year) <= 2100):
         await message.answer(get_text("invalid_year", language))
         return
 
-    await message.answer(get_text("searching", language))
+    localized_genre = get_localized_genre(genre, language)
+
+    await message.answer(
+    get_text("searching_by_genre_year", language).format(
+        genre=localized_genre,
+        year=year
+    ),
+    parse_mode="HTML"
+)
+
+
 
     movies = get_movies_by_genre_and_year(genre, int(year))
 
