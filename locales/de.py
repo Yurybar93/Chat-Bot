@@ -17,5 +17,12 @@ texts = {
     "search_by_keyword": "🧩 Nach Stichwort",
     "search_popular": "📈 Beliebte Suchanfragen",
     "search_prompt": "Wählen Sie aus, wie Sie nach dem Film suchen möchten:",
-    "back_to_main_menu": "⬅️ Zurück zum Menü"
+    "back_to_main_menu": "⬅️ Zurück zum Menü",
+    "settings_menu": "⚙️ Menü Einstellungen:",
+    "change_language": "🌐 Sprache ändern",
+    "back_to_main_menu_prompt": "Zurück zum Hauptmenü...",
+    "choose_genre": "Bitte wählen Sie ein Genre:",
+    "enter_year": "Jetzt geben Sie ein Jahr ein (z. B. 2021):",
+    "search_by_genre_year_result": "Hier sind einige Ergebnisse basierend auf Ihrem Genre und Jahr:"
+
 }

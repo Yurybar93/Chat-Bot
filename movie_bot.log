@@ -904,3 +904,581 @@
 2025-05-26 13:50:08,647 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
 2025-05-26 13:50:08,648 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
 2025-05-26 13:50:34,799 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-05-26 13:53:00,803 - utils.logger - INFO - Starting bot...
+2025-05-26 13:53:00,804 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 13:53:00,937 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 13:53:14,148 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 13:53:14,334 - aiogram.event - INFO - Update id=333500692 is handled. Duration 186 ms by bot id=7398033193
+2025-05-26 13:53:17,130 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 13:53:17,538 - aiogram.event - INFO - Update id=333500693 is handled. Duration 406 ms by bot id=7398033193
+2025-05-26 13:53:19,043 - aiogram.event - INFO - Update id=333500694 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 13:53:25,927 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 13:53:26,087 - aiogram.event - INFO - Update id=333500695 is handled. Duration 155 ms by bot id=7398033193
+2025-05-26 13:53:27,214 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 13:53:27,348 - aiogram.event - INFO - Update id=333500696 is handled. Duration 141 ms by bot id=7398033193
+2025-05-26 13:53:28,984 - aiogram.event - INFO - Update id=333500697 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 13:53:34,374 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 13:53:34,496 - aiogram.event - INFO - Update id=333500698 is handled. Duration 109 ms by bot id=7398033193
+2025-05-26 13:53:36,522 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 13:53:36,837 - aiogram.event - INFO - Update id=333500699 is handled. Duration 311 ms by bot id=7398033193
+2025-05-26 13:53:39,171 - aiogram.event - INFO - Update id=333500700 is handled. Duration 63 ms by bot id=7398033193
+2025-05-26 13:53:43,778 - aiogram.event - INFO - Update id=333500701 is handled. Duration 110 ms by bot id=7398033193
+2025-05-26 14:06:29,990 - utils.logger - INFO - Starting bot...
+2025-05-26 14:06:29,990 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 14:06:30,141 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 14:06:38,201 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 14:06:38,476 - aiogram.event - INFO - Update id=333500702 is handled. Duration 281 ms by bot id=7398033193
+2025-05-26 14:06:40,678 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 14:06:40,830 - aiogram.event - INFO - Update id=333500703 is handled. Duration 155 ms by bot id=7398033193
+2025-05-26 14:06:44,909 - aiogram.event - INFO - Update id=333500704 is handled. Duration 61 ms by bot id=7398033193
+2025-05-26 14:06:50,509 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 14:06:50,609 - aiogram.event - INFO - Update id=333500705 is handled. Duration 109 ms by bot id=7398033193
+2025-05-26 14:06:52,119 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 14:06:52,209 - aiogram.event - INFO - Update id=333500706 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 14:06:53,907 - aiogram.event - INFO - Update id=333500707 is handled. Duration 46 ms by bot id=7398033193
+2025-05-26 14:06:58,187 - aiogram.event - INFO - Update id=333500708 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 14:07:00,606 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 14:07:00,739 - aiogram.event - INFO - Update id=333500709 is handled. Duration 139 ms by bot id=7398033193
+2025-05-26 14:07:02,497 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 14:07:02,639 - aiogram.event - INFO - Update id=333500710 is handled. Duration 171 ms by bot id=7398033193
+2025-05-26 14:07:04,482 - aiogram.event - INFO - Update id=333500711 is handled. Duration 186 ms by bot id=7398033193
+2025-05-26 14:07:10,636 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 14:07:10,892 - aiogram.event - INFO - Update id=333500712 is handled. Duration 266 ms by bot id=7398033193
+2025-05-26 14:07:12,235 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 14:07:12,482 - aiogram.event - INFO - Update id=333500713 is handled. Duration 250 ms by bot id=7398033193
+2025-05-26 14:07:14,500 - aiogram.event - INFO - Update id=333500714 is handled. Duration 93 ms by bot id=7398033193
+2025-05-26 15:34:35,496 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-26 15:34:35,496 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-26 15:34:47,122 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-05-26 16:19:16,038 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-26 16:19:16,151 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-26 16:19:27,438 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-05-26 16:37:04,000 - utils.logger - INFO - Starting bot...
+2025-05-26 16:37:04,000 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:37:04,177 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:37:21,698 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:37:21,937 - aiogram.event - INFO - Update id=333500715 is handled. Duration 250 ms by bot id=7398033193
+2025-05-26 16:37:23,958 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:37:24,300 - aiogram.event - INFO - Update id=333500716 is handled. Duration 343 ms by bot id=7398033193
+2025-05-26 16:37:27,251 - aiogram.event - INFO - Update id=333500717 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 16:37:29,401 - aiogram.event - INFO - Update id=333500718 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:37:39,916 - aiogram.event - INFO - Update id=333500719 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:37:48,062 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:37:48,309 - aiogram.event - INFO - Update id=333500720 is handled. Duration 235 ms by bot id=7398033193
+2025-05-26 16:37:49,868 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 16:37:50,033 - aiogram.event - INFO - Update id=333500721 is handled. Duration 172 ms by bot id=7398033193
+2025-05-26 16:37:51,714 - aiogram.event - INFO - Update id=333500722 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 16:37:53,344 - aiogram.event - INFO - Update id=333500723 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:37:58,024 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:37:58,383 - aiogram.event - INFO - Update id=333500724 is handled. Duration 358 ms by bot id=7398033193
+2025-05-26 16:37:59,726 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 16:37:59,828 - aiogram.event - INFO - Update id=333500725 is handled. Duration 109 ms by bot id=7398033193
+2025-05-26 16:38:01,418 - aiogram.event - INFO - Update id=333500726 is handled. Duration 77 ms by bot id=7398033193
+2025-05-26 16:38:02,970 - aiogram.event - INFO - Update id=333500727 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:45:31,706 - utils.logger - INFO - Starting bot...
+2025-05-26 16:45:31,706 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:45:31,856 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:45:37,230 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:45:37,527 - aiogram.event - INFO - Update id=333500728 is handled. Duration 297 ms by bot id=7398033193
+2025-05-26 16:45:39,071 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:45:39,288 - aiogram.event - INFO - Update id=333500729 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 16:45:42,466 - aiogram.event - INFO - Update id=333500730 is handled. Duration 47 ms by bot id=7398033193
+2025-05-26 16:45:43,813 - aiogram.event - INFO - Update id=333500731 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:45:49,346 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:45:49,471 - aiogram.event - INFO - Update id=333500732 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 16:45:51,398 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 16:45:51,562 - aiogram.event - INFO - Update id=333500733 is handled. Duration 171 ms by bot id=7398033193
+2025-05-26 16:45:53,299 - aiogram.event - INFO - Update id=333500734 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 16:45:54,334 - aiogram.event - INFO - Update id=333500735 is handled. Duration 16 ms by bot id=7398033193
+2025-05-26 16:45:58,925 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:45:59,034 - aiogram.event - INFO - Update id=333500736 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 16:46:00,367 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 16:46:00,517 - aiogram.event - INFO - Update id=333500737 is handled. Duration 157 ms by bot id=7398033193
+2025-05-26 16:46:02,814 - aiogram.event - INFO - Update id=333500738 is handled. Duration 46 ms by bot id=7398033193
+2025-05-26 16:46:04,340 - aiogram.event - INFO - Update id=333500739 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:47:42,605 - utils.logger - INFO - Starting bot...
+2025-05-26 16:47:42,621 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:47:42,772 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:47:47,953 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:47:48,146 - aiogram.event - INFO - Update id=333500740 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 16:47:53,123 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:47:53,228 - aiogram.event - INFO - Update id=333500741 is handled. Duration 93 ms by bot id=7398033193
+2025-05-26 16:47:54,754 - aiogram.event - INFO - Update id=333500742 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 16:47:55,910 - aiogram.event - INFO - Update id=333500743 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:48:15,415 - aiogram.event - INFO - Update id=333500744 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:48:19,336 - aiogram.event - INFO - Update id=333500745 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:49:04,124 - utils.logger - INFO - Starting bot...
+2025-05-26 16:49:04,124 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:49:04,270 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:49:06,656 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:49:06,882 - aiogram.event - INFO - Update id=333500746 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 16:49:08,476 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:49:08,602 - aiogram.event - INFO - Update id=333500747 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 16:49:12,015 - aiogram.event - INFO - Update id=333500748 is handled. Duration 93 ms by bot id=7398033193
+2025-05-26 16:49:13,949 - aiogram.event - INFO - Update id=333500749 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:51:51,458 - utils.logger - INFO - Starting bot...
+2025-05-26 16:51:51,458 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:51:51,581 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:51:54,346 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:51:54,542 - aiogram.event - INFO - Update id=333500750 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 16:51:55,753 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:51:55,864 - aiogram.event - INFO - Update id=333500751 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 16:51:57,337 - aiogram.event - INFO - Update id=333500752 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 16:51:58,531 - aiogram.event - INFO - Update id=333500753 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:52:38,037 - utils.logger - INFO - Starting bot...
+2025-05-26 16:52:38,037 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:52:38,182 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:52:43,447 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:52:43,648 - aiogram.event - INFO - Update id=333500754 is handled. Duration 203 ms by bot id=7398033193
+2025-05-26 16:52:45,258 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:52:45,411 - aiogram.event - INFO - Update id=333500755 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 16:52:46,992 - aiogram.event - INFO - Update id=333500756 is handled. Duration 61 ms by bot id=7398033193
+2025-05-26 16:52:48,313 - aiogram.event - INFO - Update id=333500757 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 16:57:38,988 - utils.logger - INFO - Starting bot...
+2025-05-26 16:57:38,988 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:57:39,130 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 16:57:47,728 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 16:57:48,104 - aiogram.event - INFO - Update id=333500758 is handled. Duration 375 ms by bot id=7398033193
+2025-05-26 16:57:49,862 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 16:57:49,977 - aiogram.event - INFO - Update id=333500759 is handled. Duration 110 ms by bot id=7398033193
+2025-05-26 16:57:53,235 - aiogram.event - INFO - Update id=333500760 is handled. Duration 171 ms by bot id=7398033193
+2025-05-26 16:57:55,191 - aiogram.event - INFO - Update id=333500761 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:07:25,314 - utils.logger - INFO - Starting bot...
+2025-05-26 17:07:25,314 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:07:25,485 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:07:31,744 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:07:32,023 - aiogram.event - INFO - Update id=333500762 is handled. Duration 281 ms by bot id=7398033193
+2025-05-26 17:07:33,246 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:07:33,525 - aiogram.event - INFO - Update id=333500763 is handled. Duration 281 ms by bot id=7398033193
+2025-05-26 17:07:34,812 - aiogram.event - INFO - Update id=333500764 is handled. Duration 110 ms by bot id=7398033193
+2025-05-26 17:07:35,978 - aiogram.event - INFO - Update id=333500765 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:08:20,387 - utils.logger - INFO - Starting bot...
+2025-05-26 17:08:20,387 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:08:20,495 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:08:24,857 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:08:25,056 - aiogram.event - INFO - Update id=333500766 is handled. Duration 202 ms by bot id=7398033193
+2025-05-26 17:08:26,317 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:08:26,458 - aiogram.event - INFO - Update id=333500767 is handled. Duration 139 ms by bot id=7398033193
+2025-05-26 17:08:27,601 - aiogram.event - INFO - Update id=333500768 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 17:08:28,877 - aiogram.event - INFO - Update id=333500769 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:10:40,728 - utils.logger - INFO - Starting bot...
+2025-05-26 17:10:40,728 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:10:40,866 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:10:44,447 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:10:44,773 - aiogram.event - INFO - Update id=333500770 is handled. Duration 328 ms by bot id=7398033193
+2025-05-26 17:10:46,000 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:10:46,224 - aiogram.event - INFO - Update id=333500771 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 17:10:47,410 - aiogram.event - INFO - Update id=333500772 is handled. Duration 47 ms by bot id=7398033193
+2025-05-26 17:10:48,904 - aiogram.event - INFO - Update id=333500773 is handled. Duration 16 ms by bot id=7398033193
+2025-05-26 17:12:59,305 - utils.logger - INFO - Starting bot...
+2025-05-26 17:12:59,305 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:12:59,457 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:13:07,693 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:13:08,078 - aiogram.event - INFO - Update id=333500774 is handled. Duration 375 ms by bot id=7398033193
+2025-05-26 17:13:09,076 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:13:09,291 - aiogram.event - INFO - Update id=333500775 is handled. Duration 217 ms by bot id=7398033193
+2025-05-26 17:13:10,627 - aiogram.event - INFO - Update id=333500776 is handled. Duration 46 ms by bot id=7398033193
+2025-05-26 17:13:11,842 - aiogram.event - INFO - Update id=333500777 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:33:31,836 - utils.logger - INFO - Starting bot...
+2025-05-26 17:33:31,836 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:33:31,994 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:33:41,773 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:33:41,955 - aiogram.event - INFO - Update id=333500778 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 17:33:43,422 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:33:43,566 - aiogram.event - INFO - Update id=333500779 is handled. Duration 157 ms by bot id=7398033193
+2025-05-26 17:33:46,722 - aiogram.event - INFO - Update id=333500780 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 17:33:48,427 - aiogram.event - INFO - Update id=333500781 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:34:55,533 - utils.logger - INFO - Starting bot...
+2025-05-26 17:34:55,534 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:34:55,714 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:35:03,126 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:35:03,480 - aiogram.event - INFO - Update id=333500782 is handled. Duration 358 ms by bot id=7398033193
+2025-05-26 17:35:05,035 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:35:05,388 - aiogram.event - INFO - Update id=333500783 is handled. Duration 360 ms by bot id=7398033193
+2025-05-26 17:35:06,470 - aiogram.event - INFO - Update id=333500784 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:35:20,105 - aiogram.event - INFO - Update id=333500785 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:35:47,809 - utils.logger - INFO - Starting bot...
+2025-05-26 17:35:47,810 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:35:47,933 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:35:50,685 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:35:50,875 - aiogram.event - INFO - Update id=333500786 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 17:35:52,164 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:35:52,320 - aiogram.event - INFO - Update id=333500787 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 17:35:53,491 - aiogram.event - INFO - Update id=333500788 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 17:35:55,127 - aiogram.event - INFO - Update id=333500789 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:37:38,890 - utils.logger - INFO - Starting bot...
+2025-05-26 17:37:38,891 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:37:39,031 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:37:43,222 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:37:43,502 - aiogram.event - INFO - Update id=333500790 is handled. Duration 281 ms by bot id=7398033193
+2025-05-26 17:37:44,752 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:37:45,042 - aiogram.event - INFO - Update id=333500791 is handled. Duration 297 ms by bot id=7398033193
+2025-05-26 17:37:46,645 - aiogram.event - INFO - Update id=333500792 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:38:07,188 - utils.logger - INFO - Starting bot...
+2025-05-26 17:38:07,189 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:38:07,299 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:38:10,011 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:38:10,241 - aiogram.event - INFO - Update id=333500793 is handled. Duration 235 ms by bot id=7398033193
+2025-05-26 17:38:11,857 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:38:11,981 - aiogram.event - INFO - Update id=333500794 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 17:38:13,420 - aiogram.event - INFO - Update id=333500795 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 17:39:42,684 - aiogram.event - INFO - Update id=333500796 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:50:57,780 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-26 17:50:57,984 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-26 17:51:09,300 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-05-26 17:54:22,279 - utils.logger - INFO - Starting bot...
+2025-05-26 17:54:22,280 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:54:22,434 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:54:36,525 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:54:36,709 - aiogram.event - INFO - Update id=333500797 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 17:54:40,914 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:54:41,059 - aiogram.event - INFO - Update id=333500798 is handled. Duration 141 ms by bot id=7398033193
+2025-05-26 17:54:43,841 - aiogram.event - INFO - Update id=333500799 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 17:54:47,194 - aiogram.event - INFO - Update id=333500800 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 17:57:17,338 - utils.logger - INFO - Starting bot...
+2025-05-26 17:57:17,339 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:57:17,482 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 17:57:22,158 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 17:57:22,346 - aiogram.event - INFO - Update id=333500801 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 17:57:23,819 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 17:57:23,934 - aiogram.event - INFO - Update id=333500802 is handled. Duration 110 ms by bot id=7398033193
+2025-05-26 17:57:28,111 - aiogram.event - INFO - Update id=333500803 is handled. Duration 296 ms by bot id=7398033193
+2025-05-26 17:57:32,281 - aiogram.event - INFO - Update id=333500804 is handled. Duration 14 ms by bot id=7398033193
+2025-05-26 18:10:09,292 - utils.logger - INFO - Starting bot...
+2025-05-26 18:10:09,293 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:10:09,431 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:10:17,259 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:10:17,506 - aiogram.event - INFO - Update id=333500805 is handled. Duration 250 ms by bot id=7398033193
+2025-05-26 18:10:18,944 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:10:19,243 - aiogram.event - INFO - Update id=333500806 is handled. Duration 296 ms by bot id=7398033193
+2025-05-26 18:10:22,286 - aiogram.event - INFO - Update id=333500807 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 18:10:27,369 - aiogram.event - INFO - Update id=333500808 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:20:00,916 - utils.logger - INFO - Starting bot...
+2025-05-26 18:20:00,916 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:20:01,085 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:20:11,648 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:20:11,840 - aiogram.event - INFO - Update id=333500809 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 18:20:12,974 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:20:13,084 - aiogram.event - INFO - Update id=333500810 is handled. Duration 109 ms by bot id=7398033193
+2025-05-26 18:20:18,380 - aiogram.event - INFO - Update id=333500811 is handled. Duration 171 ms by bot id=7398033193
+2025-05-26 18:20:22,949 - aiogram.event - INFO - Update id=333500812 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:20:25,965 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:20:26,092 - aiogram.event - INFO - Update id=333500813 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:20:27,727 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 18:20:27,983 - aiogram.event - INFO - Update id=333500814 is handled. Duration 250 ms by bot id=7398033193
+2025-05-26 18:20:29,149 - aiogram.event - INFO - Update id=333500815 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 18:20:30,925 - aiogram.event - INFO - Update id=333500816 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:21:57,430 - utils.logger - INFO - Starting bot...
+2025-05-26 18:21:57,430 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:21:57,566 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:21:59,942 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:22:00,101 - aiogram.event - INFO - Update id=333500817 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 18:22:02,265 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:22:02,451 - aiogram.event - INFO - Update id=333500818 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 18:22:05,702 - aiogram.event - INFO - Update id=333500819 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:22:21,366 - aiogram.event - INFO - Update id=333500820 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:22:51,978 - utils.logger - INFO - Starting bot...
+2025-05-26 18:22:51,978 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:22:52,139 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:22:55,715 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:22:55,909 - aiogram.event - INFO - Update id=333500821 is handled. Duration 202 ms by bot id=7398033193
+2025-05-26 18:22:57,596 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:22:57,830 - aiogram.event - INFO - Update id=333500822 is handled. Duration 234 ms by bot id=7398033193
+2025-05-26 18:22:59,349 - aiogram.event - INFO - Update id=333500823 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:23:01,287 - aiogram.event - INFO - Update id=333500824 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:27:26,021 - utils.logger - INFO - Starting bot...
+2025-05-26 18:27:26,021 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:27:26,167 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:27:33,303 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:27:33,481 - aiogram.event - INFO - Update id=333500825 is handled. Duration 171 ms by bot id=7398033193
+2025-05-26 18:27:34,652 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:27:34,770 - aiogram.event - INFO - Update id=333500826 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:27:36,565 - aiogram.event - INFO - Update id=333500827 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 18:27:39,929 - aiogram.event - INFO - Update id=333500828 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:28:22,119 - utils.logger - INFO - Starting bot...
+2025-05-26 18:28:22,119 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:28:22,224 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:28:25,001 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:28:25,179 - aiogram.event - INFO - Update id=333500829 is handled. Duration 172 ms by bot id=7398033193
+2025-05-26 18:28:26,368 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:28:26,468 - aiogram.event - INFO - Update id=333500830 is handled. Duration 94 ms by bot id=7398033193
+2025-05-26 18:28:27,864 - aiogram.event - INFO - Update id=333500831 is handled. Duration 61 ms by bot id=7398033193
+2025-05-26 18:28:39,279 - aiogram.event - INFO - Update id=333500832 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:29:39,118 - utils.logger - INFO - Starting bot...
+2025-05-26 18:29:39,118 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:29:39,273 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:29:41,092 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:29:41,327 - aiogram.event - INFO - Update id=333500833 is handled. Duration 233 ms by bot id=7398033193
+2025-05-26 18:29:42,620 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:29:42,747 - aiogram.event - INFO - Update id=333500834 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:29:44,295 - aiogram.event - INFO - Update id=333500835 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 18:29:49,211 - aiogram.event - INFO - Update id=333500836 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:31:16,231 - utils.logger - INFO - Starting bot...
+2025-05-26 18:31:16,232 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:31:16,373 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:31:21,514 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:31:21,888 - aiogram.event - INFO - Update id=333500837 is handled. Duration 375 ms by bot id=7398033193
+2025-05-26 18:31:23,145 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:31:23,304 - aiogram.event - INFO - Update id=333500838 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 18:31:24,543 - aiogram.event - INFO - Update id=333500839 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:32:04,185 - utils.logger - INFO - Starting bot...
+2025-05-26 18:32:04,185 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:32:04,285 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:32:06,264 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:32:06,471 - aiogram.event - INFO - Update id=333500840 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 18:32:08,250 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:32:08,423 - aiogram.event - INFO - Update id=333500841 is handled. Duration 172 ms by bot id=7398033193
+2025-05-26 18:32:09,800 - aiogram.event - INFO - Update id=333500842 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 18:32:15,812 - aiogram.event - INFO - Update id=333500843 is handled. Duration 14 ms by bot id=7398033193
+2025-05-26 18:33:07,528 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:33:07,735 - aiogram.event - INFO - Update id=333500844 is handled. Duration 217 ms by bot id=7398033193
+2025-05-26 18:33:08,957 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:33:09,125 - aiogram.event - INFO - Update id=333500845 is handled. Duration 171 ms by bot id=7398033193
+2025-05-26 18:33:10,688 - aiogram.event - INFO - Update id=333500846 is handled. Duration 14 ms by bot id=7398033193
+2025-05-26 18:44:43,071 - utils.logger - INFO - Starting bot...
+2025-05-26 18:44:43,071 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:44:43,218 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:44:48,661 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:44:48,859 - aiogram.event - INFO - Update id=333500847 is handled. Duration 202 ms by bot id=7398033193
+2025-05-26 18:44:50,044 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:44:50,373 - aiogram.event - INFO - Update id=333500848 is handled. Duration 327 ms by bot id=7398033193
+2025-05-26 18:44:56,924 - aiogram.event - INFO - Update id=333500849 is handled. Duration 110 ms by bot id=7398033193
+2025-05-26 18:44:59,447 - aiogram.event - INFO - Update id=333500850 is handled. Duration 46 ms by bot id=7398033193
+2025-05-26 18:45:18,973 - aiogram.event - INFO - Update id=333500851 is handled. Duration 93 ms by bot id=7398033193
+2025-05-26 18:45:28,669 - aiogram.event - INFO - Update id=333500852 is handled. Duration 187 ms by bot id=7398033193
+2025-05-26 18:45:38,402 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:45:38,514 - aiogram.event - INFO - Update id=333500853 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 18:45:41,018 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 18:45:41,144 - aiogram.event - INFO - Update id=333500854 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:45:43,466 - aiogram.event - INFO - Update id=333500855 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:45:46,869 - aiogram.event - INFO - Update id=333500856 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:45:50,706 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:45:50,825 - aiogram.event - INFO - Update id=333500857 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 18:45:52,436 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 18:45:52,558 - aiogram.event - INFO - Update id=333500858 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:45:54,141 - aiogram.event - INFO - Update id=333500859 is not handled. Duration 16 ms by bot id=7398033193
+2025-05-26 18:46:02,684 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:46:02,903 - aiogram.event - INFO - Update id=333500860 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 18:46:04,381 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:46:04,536 - aiogram.event - INFO - Update id=333500861 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 18:46:05,597 - aiogram.event - INFO - Update id=333500862 is handled. Duration 46 ms by bot id=7398033193
+2025-05-26 18:46:07,514 - aiogram.event - INFO - Update id=333500863 is handled. Duration 46 ms by bot id=7398033193
+2025-05-26 18:46:09,704 - aiogram.event - INFO - Update id=333500864 is handled. Duration 172 ms by bot id=7398033193
+2025-05-26 18:46:16,758 - aiogram.event - INFO - Update id=333500865 is handled. Duration 93 ms by bot id=7398033193
+2025-05-26 18:46:21,357 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:46:21,640 - aiogram.event - INFO - Update id=333500866 is handled. Duration 281 ms by bot id=7398033193
+2025-05-26 18:46:22,924 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 18:46:23,143 - aiogram.event - INFO - Update id=333500867 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 18:46:24,676 - aiogram.event - INFO - Update id=333500868 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:46:44,682 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:46:44,878 - aiogram.event - INFO - Update id=333500869 is handled. Duration 202 ms by bot id=7398033193
+2025-05-26 18:46:45,957 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:46:46,074 - aiogram.event - INFO - Update id=333500870 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 18:46:47,505 - aiogram.event - INFO - Update id=333500871 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 18:46:49,777 - aiogram.event - INFO - Update id=333500872 is not handled. Duration 16 ms by bot id=7398033193
+2025-05-26 18:48:18,847 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:48:18,959 - aiogram.event - INFO - Update id=333500873 is handled. Duration 109 ms by bot id=7398033193
+2025-05-26 18:48:20,794 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 18:48:20,909 - aiogram.event - INFO - Update id=333500874 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:48:22,720 - aiogram.event - INFO - Update id=333500875 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 18:53:23,728 - utils.logger - INFO - Starting bot...
+2025-05-26 18:53:23,728 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 18:53:23,887 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 18:57:43,510 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:57:46,833 - aiogram.event - INFO - Update id=333500876 is handled. Duration 3328 ms by bot id=7398033193
+2025-05-26 18:57:47,128 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:57:47,354 - aiogram.event - INFO - Update id=333500877 is handled. Duration 218 ms by bot id=7398033193
+2025-05-26 18:57:52,475 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 18:57:52,695 - aiogram.event - INFO - Update id=333500878 is handled. Duration 233 ms by bot id=7398033193
+2025-05-26 18:57:56,983 - aiogram.event - INFO - Update id=333500879 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 18:58:06,238 - aiogram.event - INFO - Update id=333500880 is handled. Duration 77 ms by bot id=7398033193
+2025-05-26 18:58:14,963 - aiogram.event - INFO - Update id=333500881 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 18:58:20,247 - aiogram.event - INFO - Update id=333500882 is handled. Duration 61 ms by bot id=7398033193
+2025-05-26 18:58:22,391 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 18:58:22,507 - aiogram.event - INFO - Update id=333500883 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 18:58:23,970 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 18:58:24,087 - aiogram.event - INFO - Update id=333500884 is handled. Duration 109 ms by bot id=7398033193
+2025-05-26 18:58:26,758 - aiogram.event - INFO - Update id=333500885 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:01:07,050 - aiogram.event - INFO - Update id=333500886 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:02:55,403 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:02:55,513 - aiogram.event - INFO - Update id=333500887 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 19:03:01,484 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 19:03:01,628 - aiogram.event - INFO - Update id=333500888 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 19:21:30,454 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-26 19:21:30,546 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-26 19:21:41,973 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-05-26 19:22:52,419 - utils.logger - INFO - Starting bot...
+2025-05-26 19:22:52,419 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 19:22:52,584 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 19:23:01,998 - aiogram.event - INFO - Update id=333500889 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:23:07,403 - aiogram.event - INFO - Update id=333500890 is handled. Duration 16 ms by bot id=7398033193
+2025-05-26 19:23:09,163 - aiogram.event - INFO - Update id=333500891 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:23:14,724 - aiogram.event - INFO - Update id=333500892 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:23:22,122 - aiogram.event - INFO - Update id=333500893 is handled. Duration 14 ms by bot id=7398033193
+2025-05-26 19:23:46,522 - utils.logger - INFO - Starting bot...
+2025-05-26 19:23:46,522 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 19:23:46,633 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 19:23:49,879 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:23:50,226 - aiogram.event - INFO - Update id=333500894 is handled. Duration 343 ms by bot id=7398033193
+2025-05-26 19:23:57,181 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 19:23:57,313 - aiogram.event - INFO - Update id=333500895 is handled. Duration 139 ms by bot id=7398033193
+2025-05-26 19:23:58,496 - aiogram.event - INFO - Update id=333500896 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:27:47,313 - utils.logger - INFO - Starting bot...
+2025-05-26 19:27:47,313 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 19:27:47,467 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 19:27:57,109 - aiogram.event - INFO - Update id=333500897 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:28:04,331 - aiogram.event - INFO - Update id=333500898 is handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:28:24,895 - utils.logger - INFO - Starting bot...
+2025-05-26 19:28:24,895 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 19:28:25,005 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 19:28:27,472 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:28:27,884 - aiogram.event - INFO - Update id=333500899 is handled. Duration 406 ms by bot id=7398033193
+2025-05-26 19:31:40,528 - utils.logger - INFO - Starting bot...
+2025-05-26 19:31:40,528 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 19:31:40,673 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 19:31:46,630 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:31:46,896 - aiogram.event - INFO - Update id=333500900 is handled. Duration 266 ms by bot id=7398033193
+2025-05-26 19:31:49,573 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-26 19:31:49,705 - aiogram.event - INFO - Update id=333500901 is handled. Duration 141 ms by bot id=7398033193
+2025-05-26 19:31:51,329 - aiogram.event - INFO - Update id=333500902 is handled. Duration 94 ms by bot id=7398033193
+2025-05-26 19:31:53,928 - aiogram.event - INFO - Update id=333500903 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 19:31:55,563 - aiogram.event - INFO - Update id=333500904 is handled. Duration 78 ms by bot id=7398033193
+2025-05-26 19:31:58,777 - aiogram.event - INFO - Update id=333500905 is handled. Duration 47 ms by bot id=7398033193
+2025-05-26 19:32:02,238 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:32:02,466 - aiogram.event - INFO - Update id=333500906 is handled. Duration 219 ms by bot id=7398033193
+2025-05-26 19:32:03,901 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-26 19:32:04,048 - aiogram.event - INFO - Update id=333500907 is handled. Duration 156 ms by bot id=7398033193
+2025-05-26 19:32:05,547 - aiogram.event - INFO - Update id=333500908 is handled. Duration 203 ms by bot id=7398033193
+2025-05-26 19:32:07,294 - aiogram.event - INFO - Update id=333500909 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 19:33:37,243 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:33:37,352 - aiogram.event - INFO - Update id=333500910 is handled. Duration 110 ms by bot id=7398033193
+2025-05-26 19:33:39,230 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 19:33:39,562 - aiogram.event - INFO - Update id=333500911 is handled. Duration 328 ms by bot id=7398033193
+2025-05-26 19:33:41,061 - aiogram.event - INFO - Update id=333500912 is handled. Duration 63 ms by bot id=7398033193
+2025-05-26 19:33:42,365 - aiogram.event - INFO - Update id=333500913 is not handled. Duration 14 ms by bot id=7398033193
+2025-05-26 19:36:06,464 - utils.logger - INFO - Starting bot...
+2025-05-26 19:36:06,479 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 19:36:06,631 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-26 19:36:13,631 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:36:13,958 - aiogram.event - INFO - Update id=333500914 is handled. Duration 328 ms by bot id=7398033193
+2025-05-26 19:36:17,234 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 19:36:17,379 - aiogram.event - INFO - Update id=333500915 is handled. Duration 141 ms by bot id=7398033193
+2025-05-26 19:36:18,951 - aiogram.event - INFO - Update id=333500916 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 19:36:20,339 - aiogram.event - INFO - Update id=333500917 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 19:36:25,891 - aiogram.event - INFO - Update id=333500918 is handled. Duration 62 ms by bot id=7398033193
+2025-05-26 19:36:28,884 - aiogram.event - INFO - Update id=333500919 is handled. Duration 77 ms by bot id=7398033193
+2025-05-26 19:37:05,016 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:37:05,488 - aiogram.event - INFO - Update id=333500920 is handled. Duration 577 ms by bot id=7398033193
+2025-05-26 19:37:19,586 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 19:37:19,715 - aiogram.event - INFO - Update id=333500921 is handled. Duration 125 ms by bot id=7398033193
+2025-05-26 19:37:22,345 - aiogram.event - INFO - Update id=333500922 is handled. Duration 93 ms by bot id=7398033193
+2025-05-26 19:37:25,125 - aiogram.event - INFO - Update id=333500923 is handled. Duration 77 ms by bot id=7398033193
+2025-05-26 19:37:30,873 - aiogram.event - INFO - Update id=333500924 is handled. Duration 61 ms by bot id=7398033193
+2025-05-26 19:37:35,058 - aiogram.event - INFO - Update id=333500925 is handled. Duration 63 ms by bot id=7398033193
+2025-05-26 19:37:40,626 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-26 19:37:40,741 - aiogram.event - INFO - Update id=333500926 is handled. Duration 108 ms by bot id=7398033193
+2025-05-26 19:37:43,052 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-26 19:37:43,353 - aiogram.event - INFO - Update id=333500927 is handled. Duration 296 ms by bot id=7398033193
+2025-05-26 19:37:44,371 - aiogram.event - INFO - Update id=333500928 is handled. Duration 77 ms by bot id=7398033193
+2025-05-26 19:37:46,692 - aiogram.event - INFO - Update id=333500929 is not handled. Duration 0 ms by bot id=7398033193
+2025-05-26 22:01:58,487 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-26 22:01:58,826 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-26 22:02:26,758 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-05-27 03:42:01,111 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-27 03:42:01,452 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-27 08:57:09,348 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-27 08:57:09,379 - aiogram.dispatcher - WARNING - Sleep for 1.217986 seconds and try again... (tryings = 1, bot id = 7398033193)
+2025-05-27 08:57:20,958 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7398033193)
+2025-05-27 09:00:03,847 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:00:04,108 - aiogram.event - INFO - Update id=333500930 is handled. Duration 281 ms by bot id=7398033193
+2025-05-27 09:00:05,771 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:00:05,950 - aiogram.event - INFO - Update id=333500931 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:00:09,409 - aiogram.event - INFO - Update id=333500932 is handled. Duration 156 ms by bot id=7398033193
+2025-05-27 09:00:11,746 - aiogram.event - INFO - Update id=333500933 is handled. Duration 108 ms by bot id=7398033193
+2025-05-27 09:00:13,895 - aiogram.event - INFO - Update id=333500934 is handled. Duration 125 ms by bot id=7398033193
+2025-05-27 09:00:18,358 - aiogram.event - INFO - Update id=333500935 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:22:29,111 - utils.logger - INFO - Starting bot...
+2025-05-27 09:22:29,111 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 09:22:29,247 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-27 09:22:34,538 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:22:34,726 - aiogram.event - INFO - Update id=333500936 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:22:36,468 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:22:36,643 - aiogram.event - INFO - Update id=333500937 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:22:39,439 - aiogram.event - INFO - Update id=333500938 is handled. Duration 139 ms by bot id=7398033193
+2025-05-27 09:22:41,299 - aiogram.event - INFO - Update id=333500939 is handled. Duration 78 ms by bot id=7398033193
+2025-05-27 09:22:43,017 - aiogram.event - INFO - Update id=333500940 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:22:46,743 - aiogram.event - INFO - Update id=333500941 is handled. Duration 452 ms by bot id=7398033193
+2025-05-27 09:26:42,159 - utils.logger - INFO - Starting bot...
+2025-05-27 09:26:42,174 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 09:26:42,311 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-27 09:26:44,475 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:26:44,954 - aiogram.event - INFO - Update id=333500942 is handled. Duration 484 ms by bot id=7398033193
+2025-05-27 09:26:46,201 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:26:46,311 - aiogram.event - INFO - Update id=333500943 is handled. Duration 110 ms by bot id=7398033193
+2025-05-27 09:26:47,739 - aiogram.event - INFO - Update id=333500944 is handled. Duration 92 ms by bot id=7398033193
+2025-05-27 09:26:49,168 - aiogram.event - INFO - Update id=333500945 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:26:50,542 - aiogram.event - INFO - Update id=333500946 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:26:54,857 - aiogram.event - INFO - Update id=333500947 is handled. Duration 250 ms by bot id=7398033193
+2025-05-27 09:29:49,442 - utils.logger - INFO - Starting bot...
+2025-05-27 09:29:49,442 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 09:29:49,581 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-27 09:29:58,132 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:29:58,362 - aiogram.event - INFO - Update id=333500948 is handled. Duration 233 ms by bot id=7398033193
+2025-05-27 09:29:59,685 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:29:59,796 - aiogram.event - INFO - Update id=333500949 is handled. Duration 108 ms by bot id=7398033193
+2025-05-27 09:30:01,243 - aiogram.event - INFO - Update id=333500950 is handled. Duration 61 ms by bot id=7398033193
+2025-05-27 09:30:02,678 - aiogram.event - INFO - Update id=333500951 is handled. Duration 125 ms by bot id=7398033193
+2025-05-27 09:30:04,304 - aiogram.event - INFO - Update id=333500952 is handled. Duration 188 ms by bot id=7398033193
+2025-05-27 09:30:10,373 - aiogram.event - INFO - Update id=333500953 is handled. Duration 250 ms by bot id=7398033193
+2025-05-27 09:31:12,876 - utils.logger - INFO - Starting bot...
+2025-05-27 09:31:12,876 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 09:31:13,019 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-27 09:31:17,531 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:31:17,702 - aiogram.event - INFO - Update id=333500954 is handled. Duration 171 ms by bot id=7398033193
+2025-05-27 09:31:18,940 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:31:19,067 - aiogram.event - INFO - Update id=333500955 is handled. Duration 125 ms by bot id=7398033193
+2025-05-27 09:31:20,197 - aiogram.event - INFO - Update id=333500956 is handled. Duration 46 ms by bot id=7398033193
+2025-05-27 09:31:21,859 - aiogram.event - INFO - Update id=333500957 is handled. Duration 61 ms by bot id=7398033193
+2025-05-27 09:31:23,203 - aiogram.event - INFO - Update id=333500958 is handled. Duration 47 ms by bot id=7398033193
+2025-05-27 09:31:27,289 - aiogram.event - INFO - Update id=333500959 is handled. Duration 156 ms by bot id=7398033193
+2025-05-27 09:39:51,914 - utils.logger - INFO - Starting bot...
+2025-05-27 09:39:51,914 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 09:39:52,075 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-27 09:39:55,505 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:39:55,691 - aiogram.event - INFO - Update id=333500960 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:39:57,668 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:39:57,776 - aiogram.event - INFO - Update id=333500961 is handled. Duration 109 ms by bot id=7398033193
+2025-05-27 09:39:59,268 - aiogram.event - INFO - Update id=333500962 is handled. Duration 125 ms by bot id=7398033193
+2025-05-27 09:40:00,443 - aiogram.event - INFO - Update id=333500963 is handled. Duration 46 ms by bot id=7398033193
+2025-05-27 09:40:02,107 - aiogram.event - INFO - Update id=333500964 is handled. Duration 157 ms by bot id=7398033193
+2025-05-27 09:40:05,800 - aiogram.event - INFO - Update id=333500965 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:53:57,954 - utils.logger - INFO - Starting bot...
+2025-05-27 09:53:57,954 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 09:53:58,108 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-05-27 09:54:05,513 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:54:05,702 - aiogram.event - INFO - Update id=333500966 is handled. Duration 187 ms by bot id=7398033193
+2025-05-27 09:54:06,801 - handlers.actions - INFO - User 557902017 selected language: English
+2025-05-27 09:54:06,931 - aiogram.event - INFO - Update id=333500967 is handled. Duration 125 ms by bot id=7398033193
+2025-05-27 09:54:08,176 - aiogram.event - INFO - Update id=333500968 is handled. Duration 78 ms by bot id=7398033193
+2025-05-27 09:54:09,570 - aiogram.event - INFO - Update id=333500969 is handled. Duration 46 ms by bot id=7398033193
+2025-05-27 09:54:11,764 - aiogram.event - INFO - Update id=333500970 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:54:15,750 - aiogram.event - INFO - Update id=333500971 is handled. Duration 733 ms by bot id=7398033193
+2025-05-27 09:54:40,030 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:54:40,137 - aiogram.event - INFO - Update id=333500972 is handled. Duration 108 ms by bot id=7398033193
+2025-05-27 09:54:41,614 - handlers.actions - INFO - User 557902017 selected language: German
+2025-05-27 09:54:41,727 - aiogram.event - INFO - Update id=333500973 is handled. Duration 110 ms by bot id=7398033193
+2025-05-27 09:54:43,052 - aiogram.event - INFO - Update id=333500974 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:54:44,342 - aiogram.event - INFO - Update id=333500975 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:54:45,720 - aiogram.event - INFO - Update id=333500976 is handled. Duration 47 ms by bot id=7398033193
+2025-05-27 09:54:49,904 - aiogram.event - INFO - Update id=333500977 is handled. Duration 359 ms by bot id=7398033193
+2025-05-27 09:54:59,076 - handlers.start - INFO - Received /start command from user 557902017
+2025-05-27 09:54:59,182 - aiogram.event - INFO - Update id=333500978 is handled. Duration 109 ms by bot id=7398033193
+2025-05-27 09:55:00,801 - handlers.actions - INFO - User 557902017 selected language: Russian
+2025-05-27 09:55:00,904 - aiogram.event - INFO - Update id=333500979 is handled. Duration 109 ms by bot id=7398033193
+2025-05-27 09:55:02,552 - aiogram.event - INFO - Update id=333500980 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:55:04,002 - aiogram.event - INFO - Update id=333500981 is handled. Duration 62 ms by bot id=7398033193
+2025-05-27 09:55:05,754 - aiogram.event - INFO - Update id=333500982 is handled. Duration 46 ms by bot id=7398033193
+2025-05-27 09:55:11,319 - aiogram.event - INFO - Update id=333500983 is handled. Duration 546 ms by bot id=7398033193
+2025-05-27 10:06:27,841 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-27 10:06:27,857 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-05-27 10:06:39,415 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)

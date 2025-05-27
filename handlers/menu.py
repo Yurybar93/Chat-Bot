@@ -1,27 +1,32 @@
 from aiogram import Router, types, F
 from aiogram.fsm.context import FSMContext
 from utils.texts import get_text
-from config import AVAILABLE_LANGUAGES, DEFAULT_LANGUAGE
+from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from handlers.search_menu import get_search_menu
+from handlers.setting_menu import get_settings_menu
+
 router = Router()
 
-all_main_menu_texts = []
-for lang_code in AVAILABLE_LANGUAGES:
-    all_main_menu_texts.extend([
-        get_text("find_movie", lang_code),
-        get_text("favorites", lang_code),
-        get_text("settings", lang_code),
-    ])
+@router.message(F.text.in_([
+    get_text("find_movie", lang) for lang in AVAILABLE_LANGUAGES
+] + [
+    get_text("favorites", lang) for lang in AVAILABLE_LANGUAGES
+] + [
+    get_text("settings", lang) for lang in AVAILABLE_LANGUAGES
+]))
+async def handle_main_menu_buttons(message: types.Message, state: FSMContext):
+    data = await state.get_data()
+    language = data.get("language", DEFAULT_LANGUAGE)
+    text = message.text
 
-@router.message(F.text.in_(all_main_menu_texts))
-async def handle_main_menu(message: types.Message, state: FSMContext):
-    user_data = await state.get_data()
-    language = user_data.get("language", DEFAULT_LANGUAGE)
-
-    if message.text == get_text("find_movie", language):
+    if text == get_text("find_movie", language):
         await message.answer(get_text("search_prompt", language),
                              reply_markup=get_search_menu(language))
-    elif message.text == get_text("favorites", language):
+
+    elif text == get_text("favorites", language):
         await message.answer(get_text("favorites_list", language))
-    elif message.text == get_text("settings", language):
-        await message.answer(get_text("settings_menu", language))
+
+    elif text == get_text("settings", language):
+        await message.answer(get_text("settings_menu", language),
+                             reply_markup=get_settings_menu(language))
+
