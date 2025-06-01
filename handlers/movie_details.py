@@ -1,4 +1,5 @@
 from aiogram import Router, types, F
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import re
 from utils.db import get_movie_details_by_title
 from utils.texts import get_text
@@ -29,7 +30,7 @@ async def show_movie_details(message: types.Message, state: FSMContext):
         await message.answer(get_text("movie_not_found", language))
         return
 
-    title, year, genres, plot, rating, directors, cast = details
+    movie_id, title, year, genres, plot, rating, directors, cast = details
 
     def clean(value):
     # если значение уже список/множество/кортеж — просто склеиваем
@@ -59,5 +60,9 @@ async def show_movie_details(message: types.Message, state: FSMContext):
         plot=plot
     )
 
-    await message.answer(msg, parse_mode="HTML")
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="⭐ Add to favorites", callback_data=f"addfav_{movie_id}")]
+    ])
+
+    await message.answer(msg, parse_mode="HTML", reply_markup=keyboard)
 

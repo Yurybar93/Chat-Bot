@@ -2,6 +2,7 @@ from aiogram import Router, types, F
 from aiogram.fsm.context import FSMContext
 from utils.texts import get_text
 from utils.db import search_movies_by_keyword, insert_user_query
+from handlers.home import get_post_results_keyboard
 from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from states import SearchByKeyword
 
@@ -33,4 +34,10 @@ async def finish_keyword_search(message: types.Message, state: FSMContext):
             msg = f"🎬 <b>{title}</b> ({year})\n⭐️ {rating}\n\n📖 /details_{title.replace(' ', '_')}"
             await message.answer(msg, parse_mode="HTML")
 
+    await message.answer(
+    get_text("back_to_search_prompt", language),
+    reply_markup=get_post_results_keyboard(language)
+)
+
     await state.clear()
+    await state.update_data(language=language)

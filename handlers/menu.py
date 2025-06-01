@@ -4,6 +4,7 @@ from utils.texts import get_text
 from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from handlers.search_menu import get_search_menu
 from handlers.setting_menu import get_settings_menu
+from handlers.favorites import show_favorites
 
 router = Router()
 
@@ -24,7 +25,9 @@ async def handle_main_menu_buttons(message: types.Message, state: FSMContext):
                              reply_markup=get_search_menu(language))
 
     elif text == get_text("favorites", language):
-        await message.answer(get_text("favorites_list", language))
+        await message.answer(get_text("favorites_list", language),
+                             reply_markup=show_favorites(language)
+                             )
 
     elif text == get_text("settings", language):
         await message.answer(get_text("settings_menu", language),

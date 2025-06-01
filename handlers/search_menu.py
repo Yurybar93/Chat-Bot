@@ -36,3 +36,11 @@ async def handle_back_to_main_menu(message: types.Message, state: FSMContext):
     await message.answer(get_text("back_to_main_menu_prompt", language),
                          reply_markup=get_main_menu(language))
 
+@router.message(F.text.in_([
+    get_text("back_to_search_menu", lang) for lang in AVAILABLE_LANGUAGES
+]))
+async def back_to_search_menu(message: types.Message, state: FSMContext):
+    language = (await state.get_data()).get("language", DEFAULT_LANGUAGE)
+    from handlers.search_menu import get_search_menu
+    await message.answer(get_text("search_prompt", language), reply_markup=get_search_menu(language))
+

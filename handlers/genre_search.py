@@ -2,6 +2,7 @@ from aiogram import Router, types, F
 from aiogram.fsm.context import FSMContext
 from utils.texts import get_text
 from utils.db import get_movies_by_genre_and_year
+from handlers.home import get_post_results_keyboard
 from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from utils.genre_map import GENRE_TRANSLATIONS
 from states import SearchGenreYear
@@ -66,13 +67,21 @@ async def finish_search(message: types.Message, state: FSMContext):
 
 
 
-    movies = get_movies_by_genre_and_year(genre, int(year))
+    results = get_movies_by_genre_and_year(genre, int(year))
 
-    if not movies:
+    if not results:
         await message.answer(get_text("no_movies_found", language))
     else:
-        for title, year, rating in movies:
-            msg = f"🎬 <b>{title}</b> ({year})\n⭐️ {rating}"
+        for title, year, rating in results:
+            msg = f"🎬 <b>{title}</b> ({year})\n⭐️ {rating}\n\n📖 /details_{title.replace(' ', '_')}"
             await message.answer(msg, parse_mode="HTML")
 
+    await message.answer(
+    get_text("back_to_search_prompt", language),
+    reply_markup=get_post_results_keyboard(language)
+)
+
     await state.clear()
+    await state.update_data(language=language)
+
+

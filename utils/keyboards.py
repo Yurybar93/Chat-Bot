@@ -1,13 +1,14 @@
-# from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-# from locales import get_text, DEFAULT_LANGUAGE
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from utils.texts import get_text
+from config import DEFAULT_LANGUAGE
 
-# def main_menu(language: str = DEFAULT_LANGUAGE):
-#     kb = ReplyKeyboardMarkup(resize_keyboard=True)
-#     kb.add(
-#         KeyboardButton(text=get_text("menu_search", language)),
-#         KeyboardButton(text=get_text("menu_favorites", language)),
-#     )
-#     kb.add(
-#         KeyboardButton(text=get_text("menu_filters", language))
-#     )
-#     return kb
+def get_language_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text=get_text("language_english", DEFAULT_LANGUAGE))],
+            [KeyboardButton(text=get_text("language_german", DEFAULT_LANGUAGE))],
+            [KeyboardButton(text=get_text("language_russian", DEFAULT_LANGUAGE))],
+        ],
+        resize_keyboard=True,
+        one_time_keyboard=True
+    )

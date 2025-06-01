@@ -2,6 +2,7 @@ from aiogram import types, Router
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from utils.texts import get_text
+from utils.keyboards import get_language_keyboard
 from config import DEFAULT_LANGUAGE
 import logging
 
@@ -26,9 +27,9 @@ async def start_command(message: types.Message, state: FSMContext):
 
     await message.answer(
         get_text("start_message", DEFAULT_LANGUAGE),
-        reply_markup=language_keyboard
+        reply_markup=get_language_keyboard()
     )
     await message.answer(
         get_text("choose_language", DEFAULT_LANGUAGE),
-        reply_markup=language_keyboard
+        reply_markup=get_language_keyboard()
     )

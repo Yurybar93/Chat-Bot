@@ -29,6 +29,14 @@ texts = {
     "enter_keyword": "Enter a keyword (e.g., actor, genre, title...)",
     "searching_by_genre_year": "🔍 Searching for movies: genre <b>{genre}</b>, year <b>{year}</b>",
     "movie_details_format": "<b>{title}</b> ({year})\n🎭 Genres: {genres}\n🎬 Director(s): {directors}\n🎤 Cast: {cast}\n⭐️ IMDb: {rating}\n\n📝 {plot}",
-    "movie_not_found": "❌ Movie details not found."
-
+    "movie_not_found": "❌ Movie details not found.",
+    "no_favorites": "❌ You have no favorite movies yet.",
+    "remove_from_favorites": "🗑 Remove",
+    "added_to_favorites": "⭐ Added to favorites!",
+    "removed_from_favorites": "🗑 Removed from favorites",
+    "remove_from_favorites_error": "❌ Failed to remove from favorites",
+    "no_movies_found": "❌ No movies found for your query.",
+    "back_to_search_menu": "🔙 Back to search menu",
+    "back_to_main_menu": "🏠 Main menu",
+    "back_to_search_prompt": "what next?"
 }

@@ -29,5 +29,14 @@ texts = {
     "enter_keyword": "Geben Sie ein Stichwort ein (z. B. Schauspieler, Genre, Titel...)",
     "searching_by_genre_year": "🔍 Suche nach Filmen: Genre <b>{genre}</b>, Jahr <b>{year}</b>",
     "movie_details_format": "<b>{title}</b> ({year})\n🎭 Genres: {genres}\n🎬 Regisseur(e): {directors}\n🎤 Besetzung: {cast}\n⭐️ IMDb: {rating}\n\n📝 {plot}",
-    "movie_not_found": "❌ Filmdetails nicht gefunden."
+    "movie_not_found": "❌ Filmdetails nicht gefunden.",
+    "no_favorites": "❌ Sie haben noch keine Lieblingsfilme.",
+    "remove_from_favorites": "🗑 Entfernen",
+    "added_to_favorites": "⭐ Zu Favoriten hinzugefügt!",
+    "removed_from_favorites": "🗑 Aus Favoriten entfernt",
+    "remove_from_favorites_error": "❌ Entfernen fehlgeschlagen",
+    "no_movies_found": "❌ Keine Filme zu Ihrer Anfrage gefunden.",
+    "back_to_search_menu": "🔙 Zurück zur Suche",
+    "back_to_main_menu": "🏠 Hauptmenü",
+    "back_to_search_prompt": "Was nun?"
 }
