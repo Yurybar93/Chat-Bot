@@ -40,3 +40,4 @@ texts = {
     "back_to_main_menu": "🏠 Main menu",
     "back_to_search_prompt": "what next?"
 }
+
