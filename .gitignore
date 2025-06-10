@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Environment
+.env
+venv/
+.env.*
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Byte-compiled
+*.egg-info/
+.eggs/
+*.bak
+
+# DB & Cache
+*.sqlite3
+*.db
+*.db-journal
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
