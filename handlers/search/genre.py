@@ -3,6 +3,7 @@ from aiogram.fsm.context import FSMContext
 from core.utils.texts import get_text
 from core.database.movies import get_movies_by_genre_and_year
 from core.utils.keyboards import get_post_results_keyboard
+from core.services.search_service import format_movie_preview
 from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from core.utils.genre_map import GENRE_TRANSLATIONS
 from states.search_states import SearchGenreYear
@@ -73,7 +74,7 @@ async def finish_search(message: types.Message, state: FSMContext):
         await message.answer(get_text("no_movies_found", language))
     else:
         for title, year, rating in results:
-            msg = f"🎬 <b>{title}</b> ({year})\n⭐️ {rating}\n\n📖 /details_{title.replace(' ', '_')}"
+            msg = format_movie_preview(title, year, rating)
             await message.answer(msg, parse_mode="HTML")
 
     await message.answer(

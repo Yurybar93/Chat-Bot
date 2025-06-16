@@ -4,6 +4,7 @@ from core.utils.texts import get_text
 from core.database.movies import search_movies_by_keyword
 from core.database.queries import insert_user_query
 from core.utils.keyboards import get_post_results_keyboard
+from core.services.search_service import format_movie_preview
 from config import DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES
 from states.search_states import SearchByKeyword
 
@@ -32,7 +33,7 @@ async def finish_keyword_search(message: types.Message, state: FSMContext):
         await message.answer(get_text("no_movies_found", language))
     else:
         for title, year, rating in results:
-            msg = f"🎬 <b>{title}</b> ({year})\n⭐️ {rating}\n\n📖 /details_{title.replace(' ', '_')}"
+            msg = format_movie_preview(title, year, rating)
             await message.answer(msg, parse_mode="HTML")
 
     await message.answer(

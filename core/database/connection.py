@@ -16,6 +16,6 @@ def create_connection():
         if connection.is_connected():
             logger.info("Successful connection to the database!")
             return connection
-    except Error as e:
+    except (Error, Exception) as e: 
         logger.error(f"Error connecting to the database: {e}")
         return None

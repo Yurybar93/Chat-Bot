@@ -94,10 +94,7 @@ def get_movie_details_by_title(title: str):
         '''
         cursor.execute(query, (title,))
         return cursor.fetchone()
-        # result = cursor.fetchone()
-        # cursor.close()
-        # connection.close()
-        # return result  
+
     except Exception as e:
         print(f"DB ERROR (movie details): {e}")
         return None

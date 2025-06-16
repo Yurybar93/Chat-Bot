@@ -19,8 +19,5 @@ async def start_command(message: types.Message, state: FSMContext):
         get_text("start_message", DEFAULT_LANGUAGE),
         reply_markup=get_language_keyboard()
     )
-    await message.answer(
-        get_text("choose_language", DEFAULT_LANGUAGE),
-        reply_markup=get_language_keyboard()
-    )
+    
 

@@ -33,18 +33,15 @@ async def show_movie_details(message: types.Message, state: FSMContext):
     movie_id, title, year, genres, plot, rating, directors, cast = details
 
     def clean(value):
-    # если значение уже список/множество/кортеж — просто склеиваем
         if isinstance(value, (list, set, tuple)):
             return ", ".join(str(v) for v in value)
 
-    # если это строка — пробуем распарсить
         if isinstance(value, str):
             try:
                 parsed = ast.literal_eval(value)
                 if isinstance(parsed, (list, set, tuple)):
                     return ", ".join(str(v) for v in parsed)
             except Exception:
-            # если не удалось распарсить — удалим скобки вручную
                 cleaned = value.strip("{}[]()").replace("'", "").replace('"', '')
                 return ", ".join(part.strip() for part in cleaned.split(","))
     

@@ -237,3 +237,492 @@ TypeError: show_favorites() missing 1 required positional argument: 'language'
 2025-06-10 13:34:48,131 - aiogram.event - INFO - Update id=333501869 is handled. Duration 1359 ms by bot id=7398033193
 2025-06-10 13:34:50,593 - core.utils.logger - INFO - Successful connection to the database!
 2025-06-10 13:34:50,696 - aiogram.event - INFO - Update id=333501870 is handled. Duration 109 ms by bot id=7398033193
+2025-06-10 13:43:31,847 - core.utils.logger - INFO - Starting bot...
+2025-06-10 13:43:31,847 - aiogram.dispatcher - INFO - Start polling
+2025-06-10 13:43:31,998 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-06-10 13:43:49,310 - aiogram.event - INFO - Update id=333501871 is handled. Duration 0 ms by bot id=7398033193
+2025-06-10 13:43:57,866 - handlers.base.start - INFO - Received /start command from user 557902017
+2025-06-10 13:43:58,089 - aiogram.event - INFO - Update id=333501872 is handled. Duration 218 ms by bot id=7398033193
+2025-06-10 13:43:59,983 - handlers.base.actions - INFO - User 557902017 selected language: Russian
+2025-06-10 13:44:00,130 - aiogram.event - INFO - Update id=333501873 is handled. Duration 155 ms by bot id=7398033193
+2025-06-10 13:44:01,838 - aiogram.event - INFO - Update id=333501874 is handled. Duration 155 ms by bot id=7398033193
+2025-06-10 13:44:03,667 - aiogram.event - INFO - Update id=333501875 is handled. Duration 62 ms by bot id=7398033193
+2025-06-10 13:44:07,495 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:07,509 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:08,206 - aiogram.event - INFO - Update id=333501876 is handled. Duration 733 ms by bot id=7398033193
+2025-06-10 13:44:10,379 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:10,472 - aiogram.event - INFO - Update id=333501877 is handled. Duration 94 ms by bot id=7398033193
+2025-06-10 13:44:11,721 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:11,762 - aiogram.event - INFO - Update id=333501878 is handled. Duration 47 ms by bot id=7398033193
+2025-06-10 13:44:13,857 - aiogram.event - INFO - Update id=333501879 is handled. Duration 77 ms by bot id=7398033193
+2025-06-10 13:44:15,444 - aiogram.event - INFO - Update id=333501880 is handled. Duration 140 ms by bot id=7398033193
+2025-06-10 13:44:16,770 - aiogram.event - INFO - Update id=333501881 is handled. Duration 78 ms by bot id=7398033193
+2025-06-10 13:44:20,973 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:21,668 - aiogram.event - INFO - Update id=333501882 is handled. Duration 781 ms by bot id=7398033193
+2025-06-10 13:44:24,268 - aiogram.event - INFO - Update id=333501883 is handled. Duration 156 ms by bot id=7398033193
+2025-06-10 13:44:25,776 - aiogram.event - INFO - Update id=333501884 is handled. Duration 63 ms by bot id=7398033193
+2025-06-10 13:44:30,457 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:30,473 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:31,799 - aiogram.event - INFO - Update id=333501885 is handled. Duration 1359 ms by bot id=7398033193
+2025-06-10 13:44:32,830 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:32,916 - aiogram.event - INFO - Update id=333501886 is handled. Duration 94 ms by bot id=7398033193
+2025-06-10 13:44:34,095 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:34,156 - aiogram.event - INFO - Update id=333501887 is handled. Duration 78 ms by bot id=7398033193
+2025-06-10 13:44:35,737 - aiogram.event - INFO - Update id=333501888 is handled. Duration 93 ms by bot id=7398033193
+2025-06-10 13:44:38,153 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:38,229 - aiogram.event - INFO - Update id=333501889 is handled. Duration 94 ms by bot id=7398033193
+2025-06-10 13:44:42,371 - aiogram.event - INFO - Update id=333501890 is handled. Duration 31 ms by bot id=7398033193
+2025-06-10 13:44:43,985 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:44,560 - aiogram.event - INFO - Update id=333501891 is handled. Duration 577 ms by bot id=7398033193
+2025-06-10 13:44:45,975 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:44:46,093 - aiogram.event - INFO - Update id=333501892 is handled. Duration 125 ms by bot id=7398033193
+2025-06-10 13:44:50,035 - aiogram.event - INFO - Update id=333501893 is handled. Duration 62 ms by bot id=7398033193
+2025-06-10 13:44:51,258 - aiogram.event - INFO - Update id=333501894 is handled. Duration 108 ms by bot id=7398033193
+2025-06-10 13:44:52,887 - handlers.base.actions - INFO - User 557902017 selected language: German
+2025-06-10 13:44:53,058 - aiogram.event - INFO - Update id=333501895 is handled. Duration 172 ms by bot id=7398033193
+2025-06-10 13:44:55,883 - aiogram.event - INFO - Update id=333501896 is handled. Duration 62 ms by bot id=7398033193
+2025-06-10 13:44:57,415 - aiogram.event - INFO - Update id=333501897 is handled. Duration 109 ms by bot id=7398033193
+2025-06-10 13:44:58,520 - handlers.base.actions - INFO - User 557902017 selected language: English
+2025-06-10 13:44:58,813 - aiogram.event - INFO - Update id=333501898 is handled. Duration 312 ms by bot id=7398033193
+2025-06-10 13:45:00,961 - aiogram.event - INFO - Update id=333501899 is handled. Duration 77 ms by bot id=7398033193
+2025-06-10 13:45:02,236 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:45:02,356 - aiogram.event - INFO - Update id=333501900 is handled. Duration 125 ms by bot id=7398033193
+2025-06-10 13:45:15,194 - aiogram.event - INFO - Update id=333501901 is handled. Duration 62 ms by bot id=7398033193
+2025-06-10 13:45:24,318 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:45:24,333 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:45:25,346 - aiogram.event - INFO - Update id=333501902 is handled. Duration 1047 ms by bot id=7398033193
+2025-06-10 13:45:27,489 - aiogram.event - INFO - Update id=333501903 is handled. Duration 62 ms by bot id=7398033193
+2025-06-10 13:45:28,926 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-10 13:45:28,978 - aiogram.event - INFO - Update id=333501904 is handled. Duration 62 ms by bot id=7398033193
+2025-06-10 14:28:46,992 - aiogram.event - INFO - Update id=333501905 is handled. Duration 219 ms by bot id=7398033193
+2025-06-10 14:58:11,749 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 14:58:11,996 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 14:58:23,264 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 16:39:48,852 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 16:39:48,965 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 16:40:00,679 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 17:20:42,364 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 17:20:42,484 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 17:20:53,788 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 17:38:57,411 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 17:38:57,456 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 17:39:08,909 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 18:15:42,638 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 18:15:42,771 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 18:15:54,251 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 21:17:59,948 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 21:18:00,061 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 21:18:11,434 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 22:45:54,092 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 22:45:54,118 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 22:45:55,219 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:45:55,230 - aiogram.dispatcher - WARNING - Sleep for 1.175431 seconds and try again... (tryings = 1, bot id = 7398033193)
+2025-06-10 22:45:56,432 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:45:56,432 - aiogram.dispatcher - WARNING - Sleep for 1.429722 seconds and try again... (tryings = 2, bot id = 7398033193)
+2025-06-10 22:45:57,878 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:45:57,878 - aiogram.dispatcher - WARNING - Sleep for 1.786872 seconds and try again... (tryings = 3, bot id = 7398033193)
+2025-06-10 22:46:14,619 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:14,754 - aiogram.dispatcher - WARNING - Sleep for 2.354073 seconds and try again... (tryings = 4, bot id = 7398033193)
+2025-06-10 22:46:17,285 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:17,285 - aiogram.dispatcher - WARNING - Sleep for 3.108890 seconds and try again... (tryings = 5, bot id = 7398033193)
+2025-06-10 22:46:20,407 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:20,407 - aiogram.dispatcher - WARNING - Sleep for 4.079899 seconds and try again... (tryings = 6, bot id = 7398033193)
+2025-06-10 22:46:24,522 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:24,522 - aiogram.dispatcher - WARNING - Sleep for 4.831361 seconds and try again... (tryings = 7, bot id = 7398033193)
+2025-06-10 22:46:29,356 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:29,356 - aiogram.dispatcher - WARNING - Sleep for 4.982973 seconds and try again... (tryings = 8, bot id = 7398033193)
+2025-06-10 22:46:34,344 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:34,344 - aiogram.dispatcher - WARNING - Sleep for 4.780702 seconds and try again... (tryings = 9, bot id = 7398033193)
+2025-06-10 22:46:39,125 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:39,125 - aiogram.dispatcher - WARNING - Sleep for 4.876038 seconds and try again... (tryings = 10, bot id = 7398033193)
+2025-06-10 22:46:44,009 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:44,009 - aiogram.dispatcher - WARNING - Sleep for 4.973997 seconds and try again... (tryings = 11, bot id = 7398033193)
+2025-06-10 22:46:48,996 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:48,996 - aiogram.dispatcher - WARNING - Sleep for 5.097862 seconds and try again... (tryings = 12, bot id = 7398033193)
+2025-06-10 22:46:54,108 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:54,108 - aiogram.dispatcher - WARNING - Sleep for 4.835124 seconds and try again... (tryings = 13, bot id = 7398033193)
+2025-06-10 22:46:58,952 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:46:58,952 - aiogram.dispatcher - WARNING - Sleep for 4.936920 seconds and try again... (tryings = 14, bot id = 7398033193)
+2025-06-10 22:47:03,893 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 22:47:03,893 - aiogram.dispatcher - WARNING - Sleep for 4.873863 seconds and try again... (tryings = 15, bot id = 7398033193)
+2025-06-10 22:47:19,399 - aiogram.dispatcher - INFO - Connection established (tryings = 16, bot id = 7398033193)
+2025-06-10 22:53:22,272 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 22:53:22,272 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 22:53:33,456 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 22:59:46,271 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 22:59:46,272 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 22:59:57,488 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 23:06:20,284 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 23:06:20,285 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 23:06:31,449 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 23:46:11,283 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 23:46:11,284 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 23:46:22,476 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-10 23:54:06,280 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-10 23:54:06,281 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-10 23:54:07,301 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:07,303 - aiogram.dispatcher - WARNING - Sleep for 1.288504 seconds and try again... (tryings = 1, bot id = 7398033193)
+2025-06-10 23:54:08,604 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:08,604 - aiogram.dispatcher - WARNING - Sleep for 1.680484 seconds and try again... (tryings = 2, bot id = 7398033193)
+2025-06-10 23:54:10,293 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:10,293 - aiogram.dispatcher - WARNING - Sleep for 2.101936 seconds and try again... (tryings = 3, bot id = 7398033193)
+2025-06-10 23:54:12,401 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:12,402 - aiogram.dispatcher - WARNING - Sleep for 2.621041 seconds and try again... (tryings = 4, bot id = 7398033193)
+2025-06-10 23:54:15,030 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:15,031 - aiogram.dispatcher - WARNING - Sleep for 3.465985 seconds and try again... (tryings = 5, bot id = 7398033193)
+2025-06-10 23:54:18,503 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:18,504 - aiogram.dispatcher - WARNING - Sleep for 4.620912 seconds and try again... (tryings = 6, bot id = 7398033193)
+2025-06-10 23:54:23,128 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:23,128 - aiogram.dispatcher - WARNING - Sleep for 4.967307 seconds and try again... (tryings = 7, bot id = 7398033193)
+2025-06-10 23:54:28,123 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:28,123 - aiogram.dispatcher - WARNING - Sleep for 5.059830 seconds and try again... (tryings = 8, bot id = 7398033193)
+2025-06-10 23:54:33,202 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:33,202 - aiogram.dispatcher - WARNING - Sleep for 4.767662 seconds and try again... (tryings = 9, bot id = 7398033193)
+2025-06-10 23:54:37,984 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:37,985 - aiogram.dispatcher - WARNING - Sleep for 4.930657 seconds and try again... (tryings = 10, bot id = 7398033193)
+2025-06-10 23:54:42,921 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:42,921 - aiogram.dispatcher - WARNING - Sleep for 4.969605 seconds and try again... (tryings = 11, bot id = 7398033193)
+2025-06-10 23:54:47,900 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:47,901 - aiogram.dispatcher - WARNING - Sleep for 4.874269 seconds and try again... (tryings = 12, bot id = 7398033193)
+2025-06-10 23:54:52,786 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:52,786 - aiogram.dispatcher - WARNING - Sleep for 4.895243 seconds and try again... (tryings = 13, bot id = 7398033193)
+2025-06-10 23:54:57,699 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:54:57,700 - aiogram.dispatcher - WARNING - Sleep for 4.991383 seconds and try again... (tryings = 14, bot id = 7398033193)
+2025-06-10 23:55:02,708 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:02,709 - aiogram.dispatcher - WARNING - Sleep for 5.102009 seconds and try again... (tryings = 15, bot id = 7398033193)
+2025-06-10 23:55:07,830 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:07,831 - aiogram.dispatcher - WARNING - Sleep for 4.980219 seconds and try again... (tryings = 16, bot id = 7398033193)
+2025-06-10 23:55:12,814 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:12,814 - aiogram.dispatcher - WARNING - Sleep for 4.973452 seconds and try again... (tryings = 17, bot id = 7398033193)
+2025-06-10 23:55:17,797 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:17,797 - aiogram.dispatcher - WARNING - Sleep for 5.043470 seconds and try again... (tryings = 18, bot id = 7398033193)
+2025-06-10 23:55:22,856 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:22,857 - aiogram.dispatcher - WARNING - Sleep for 5.163072 seconds and try again... (tryings = 19, bot id = 7398033193)
+2025-06-10 23:55:28,029 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:28,030 - aiogram.dispatcher - WARNING - Sleep for 4.918990 seconds and try again... (tryings = 20, bot id = 7398033193)
+2025-06-10 23:55:32,964 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:32,965 - aiogram.dispatcher - WARNING - Sleep for 4.980829 seconds and try again... (tryings = 21, bot id = 7398033193)
+2025-06-10 23:55:37,951 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:37,951 - aiogram.dispatcher - WARNING - Sleep for 4.904445 seconds and try again... (tryings = 22, bot id = 7398033193)
+2025-06-10 23:55:42,869 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:42,870 - aiogram.dispatcher - WARNING - Sleep for 4.866982 seconds and try again... (tryings = 23, bot id = 7398033193)
+2025-06-10 23:55:47,742 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:47,742 - aiogram.dispatcher - WARNING - Sleep for 5.062122 seconds and try again... (tryings = 24, bot id = 7398033193)
+2025-06-10 23:55:52,815 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:52,816 - aiogram.dispatcher - WARNING - Sleep for 5.055597 seconds and try again... (tryings = 25, bot id = 7398033193)
+2025-06-10 23:55:57,885 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:55:57,886 - aiogram.dispatcher - WARNING - Sleep for 5.034891 seconds and try again... (tryings = 26, bot id = 7398033193)
+2025-06-10 23:56:02,936 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:02,937 - aiogram.dispatcher - WARNING - Sleep for 5.097712 seconds and try again... (tryings = 27, bot id = 7398033193)
+2025-06-10 23:56:08,041 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:08,041 - aiogram.dispatcher - WARNING - Sleep for 5.003342 seconds and try again... (tryings = 28, bot id = 7398033193)
+2025-06-10 23:56:13,052 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:13,052 - aiogram.dispatcher - WARNING - Sleep for 4.940890 seconds and try again... (tryings = 29, bot id = 7398033193)
+2025-06-10 23:56:18,011 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:18,012 - aiogram.dispatcher - WARNING - Sleep for 4.970647 seconds and try again... (tryings = 30, bot id = 7398033193)
+2025-06-10 23:56:22,988 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:22,989 - aiogram.dispatcher - WARNING - Sleep for 5.027149 seconds and try again... (tryings = 31, bot id = 7398033193)
+2025-06-10 23:56:28,031 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:28,031 - aiogram.dispatcher - WARNING - Sleep for 5.075769 seconds and try again... (tryings = 32, bot id = 7398033193)
+2025-06-10 23:56:33,113 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:33,113 - aiogram.dispatcher - WARNING - Sleep for 5.070468 seconds and try again... (tryings = 33, bot id = 7398033193)
+2025-06-10 23:56:38,195 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:38,196 - aiogram.dispatcher - WARNING - Sleep for 5.047286 seconds and try again... (tryings = 34, bot id = 7398033193)
+2025-06-10 23:56:43,250 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:43,251 - aiogram.dispatcher - WARNING - Sleep for 5.114123 seconds and try again... (tryings = 35, bot id = 7398033193)
+2025-06-10 23:56:48,368 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:48,368 - aiogram.dispatcher - WARNING - Sleep for 4.969292 seconds and try again... (tryings = 36, bot id = 7398033193)
+2025-06-10 23:56:53,342 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:53,342 - aiogram.dispatcher - WARNING - Sleep for 5.068181 seconds and try again... (tryings = 37, bot id = 7398033193)
+2025-06-10 23:56:58,422 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:56:58,422 - aiogram.dispatcher - WARNING - Sleep for 4.865320 seconds and try again... (tryings = 38, bot id = 7398033193)
+2025-06-10 23:57:03,301 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:57:03,302 - aiogram.dispatcher - WARNING - Sleep for 4.963183 seconds and try again... (tryings = 39, bot id = 7398033193)
+2025-06-10 23:57:08,268 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:57:08,268 - aiogram.dispatcher - WARNING - Sleep for 4.998781 seconds and try again... (tryings = 40, bot id = 7398033193)
+2025-06-10 23:57:13,271 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:57:13,271 - aiogram.dispatcher - WARNING - Sleep for 4.955240 seconds and try again... (tryings = 41, bot id = 7398033193)
+2025-06-10 23:57:18,240 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:57:18,240 - aiogram.dispatcher - WARNING - Sleep for 4.973333 seconds and try again... (tryings = 42, bot id = 7398033193)
+2025-06-10 23:57:23,222 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-10 23:57:23,222 - aiogram.dispatcher - WARNING - Sleep for 4.907393 seconds and try again... (tryings = 43, bot id = 7398033193)
+2025-06-10 23:57:41,072 - aiogram.dispatcher - INFO - Connection established (tryings = 44, bot id = 7398033193)
+2025-06-11 03:34:29,905 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-11 03:34:30,021 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-11 03:34:31,188 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 03:34:31,195 - aiogram.dispatcher - WARNING - Sleep for 1.322518 seconds and try again... (tryings = 1, bot id = 7398033193)
+2025-06-11 03:34:32,543 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 03:34:32,544 - aiogram.dispatcher - WARNING - Sleep for 1.688875 seconds and try again... (tryings = 2, bot id = 7398033193)
+2025-06-11 04:20:45,019 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 04:20:45,033 - aiogram.dispatcher - WARNING - Sleep for 2.054018 seconds and try again... (tryings = 3, bot id = 7398033193)
+2025-06-11 04:20:47,115 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 04:20:47,115 - aiogram.dispatcher - WARNING - Sleep for 2.665458 seconds and try again... (tryings = 4, bot id = 7398033193)
+2025-06-11 05:55:16,391 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 05:55:16,438 - aiogram.dispatcher - WARNING - Sleep for 3.462700 seconds and try again... (tryings = 5, bot id = 7398033193)
+2025-06-11 05:55:19,912 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 05:55:19,912 - aiogram.dispatcher - WARNING - Sleep for 4.476614 seconds and try again... (tryings = 6, bot id = 7398033193)
+2025-06-11 15:24:53,961 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-06-11 15:24:53,979 - aiogram.dispatcher - WARNING - Sleep for 4.910329 seconds and try again... (tryings = 7, bot id = 7398033193)
+2025-06-11 15:25:10,949 - aiogram.dispatcher - INFO - Connection established (tryings = 8, bot id = 7398033193)
+2025-06-11 16:46:32,713 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-11 16:46:32,718 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-11 16:46:43,854 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-11 17:04:19,437 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-11 17:04:19,438 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-11 22:59:03,965 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-11 22:59:03,977 - aiogram.dispatcher - WARNING - Sleep for 1.271224 seconds and try again... (tryings = 1, bot id = 7398033193)
+2025-06-11 22:59:16,427 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7398033193)
+2025-06-11 23:32:16,447 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-11 23:32:16,494 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7398033193)
+2025-06-11 23:32:28,058 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7398033193)
+2025-06-11 23:47:26,590 - core.utils.logger - INFO - Starting bot...
+2025-06-11 23:47:26,590 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 23:47:27,044 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-06-11 23:47:48,189 - aiogram.event - INFO - Update id=333501906 is handled. Duration 266 ms by bot id=7398033193
+2025-06-11 23:47:50,355 - aiogram.event - INFO - Update id=333501907 is handled. Duration 93 ms by bot id=7398033193
+2025-06-11 23:47:52,603 - aiogram.event - INFO - Update id=333501908 is handled. Duration 171 ms by bot id=7398033193
+2025-06-11 23:47:54,909 - aiogram.event - INFO - Update id=333501909 is handled. Duration 297 ms by bot id=7398033193
+2025-06-11 23:47:57,757 - handlers.base.actions - INFO - User 557902017 selected language: Russian
+2025-06-11 23:47:58,022 - aiogram.event - INFO - Update id=333501910 is handled. Duration 282 ms by bot id=7398033193
+2025-06-11 23:48:00,496 - aiogram.event - INFO - Update id=333501911 is handled. Duration 125 ms by bot id=7398033193
+2025-06-11 23:48:03,224 - aiogram.event - INFO - Update id=333501912 is handled. Duration 110 ms by bot id=7398033193
+2025-06-11 23:48:05,559 - aiogram.event - INFO - Update id=333501913 is handled. Duration 93 ms by bot id=7398033193
+2025-06-11 23:48:09,925 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:11,436 - aiogram.event - INFO - Update id=333501914 is handled. Duration 1968 ms by bot id=7398033193
+2025-06-11 23:48:12,671 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:12,697 - aiogram.event - INFO - Update id=333501915 is not handled. Duration 46 ms by bot id=7398033193
+2025-06-11 23:48:12,698 - aiogram.event - ERROR - Cause exception while process update id=333501915 by bot id=7398033193
+InternalError: Unread result found
+Traceback (most recent call last):
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\handlers\search\movie_details.py", line 27, in show_movie_details
+    details = get_movie_details_by_title(title)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\core\database\movies.py", line 102, in get_movie_details_by_title
+    cursor.close()
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\mysql\connector\cursor_cext.py", line 516, in close
+    self._connection.handle_unread_result()
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\mysql\connector\connection_cext.py", line 1121, in handle_unread_result
+    raise InternalError("Unread result found")
+mysql.connector.errors.InternalError: Unread result found
+2025-06-11 23:48:20,244 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:20,347 - aiogram.event - INFO - Update id=333501916 is handled. Duration 125 ms by bot id=7398033193
+2025-06-11 23:48:27,383 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:27,399 - aiogram.event - INFO - Update id=333501917 is not handled. Duration 32 ms by bot id=7398033193
+2025-06-11 23:48:27,416 - aiogram.event - ERROR - Cause exception while process update id=333501917 by bot id=7398033193
+InternalError: Unread result found
+Traceback (most recent call last):
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\handlers\search\movie_details.py", line 27, in show_movie_details
+    details = get_movie_details_by_title(title)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\core\database\movies.py", line 102, in get_movie_details_by_title
+    cursor.close()
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\mysql\connector\cursor_cext.py", line 516, in close
+    self._connection.handle_unread_result()
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\mysql\connector\connection_cext.py", line 1121, in handle_unread_result
+    raise InternalError("Unread result found")
+mysql.connector.errors.InternalError: Unread result found
+2025-06-11 23:48:29,505 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:29,697 - aiogram.event - INFO - Update id=333501918 is handled. Duration 203 ms by bot id=7398033193
+2025-06-11 23:48:33,697 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:33,797 - aiogram.event - INFO - Update id=333501919 is handled. Duration 108 ms by bot id=7398033193
+2025-06-11 23:48:38,095 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:48:38,107 - aiogram.event - INFO - Update id=333501920 is not handled. Duration 31 ms by bot id=7398033193
+2025-06-11 23:48:38,115 - aiogram.event - ERROR - Cause exception while process update id=333501920 by bot id=7398033193
+InternalError: Unread result found
+Traceback (most recent call last):
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\handlers\search\movie_details.py", line 27, in show_movie_details
+    details = get_movie_details_by_title(title)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\core\database\movies.py", line 102, in get_movie_details_by_title
+    cursor.close()
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\mysql\connector\cursor_cext.py", line 516, in close
+    self._connection.handle_unread_result()
+  File "C:\Users\Baryn\Python Mentoring\moovie bot\Chat-Bot\venv\Lib\site-packages\mysql\connector\connection_cext.py", line 1121, in handle_unread_result
+    raise InternalError("Unread result found")
+mysql.connector.errors.InternalError: Unread result found
+2025-06-11 23:50:06,625 - core.utils.logger - INFO - Starting bot...
+2025-06-11 23:50:06,625 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 23:50:06,802 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-06-11 23:50:14,226 - aiogram.event - INFO - Update id=333501921 is handled. Duration 202 ms by bot id=7398033193
+2025-06-11 23:50:17,895 - aiogram.event - INFO - Update id=333501922 is handled. Duration 110 ms by bot id=7398033193
+2025-06-11 23:50:20,165 - aiogram.event - INFO - Update id=333501923 is handled. Duration 125 ms by bot id=7398033193
+2025-06-11 23:50:22,702 - aiogram.event - INFO - Update id=333501924 is handled. Duration 108 ms by bot id=7398033193
+2025-06-11 23:50:24,669 - handlers.base.actions - INFO - User 557902017 selected language: German
+2025-06-11 23:50:24,978 - aiogram.event - INFO - Update id=333501925 is handled. Duration 312 ms by bot id=7398033193
+2025-06-11 23:50:27,590 - aiogram.event - INFO - Update id=333501926 is handled. Duration 78 ms by bot id=7398033193
+2025-06-11 23:50:32,595 - aiogram.event - INFO - Update id=333501927 is handled. Duration 171 ms by bot id=7398033193
+2025-06-11 23:50:37,727 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:50:37,749 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:50:39,381 - aiogram.event - INFO - Update id=333501928 is handled. Duration 1687 ms by bot id=7398033193
+2025-06-11 23:50:42,903 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:50:43,058 - aiogram.event - INFO - Update id=333501929 is handled. Duration 172 ms by bot id=7398033193
+2025-06-11 23:50:45,484 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:50:45,582 - aiogram.event - INFO - Update id=333501930 is handled. Duration 109 ms by bot id=7398033193
+2025-06-11 23:50:47,329 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:50:47,413 - aiogram.event - INFO - Update id=333501931 is handled. Duration 108 ms by bot id=7398033193
+2025-06-11 23:50:50,317 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:50:50,493 - aiogram.event - INFO - Update id=333501932 is handled. Duration 186 ms by bot id=7398033193
+2025-06-11 23:53:13,028 - core.utils.logger - INFO - Starting bot...
+2025-06-11 23:53:13,028 - aiogram.dispatcher - INFO - Start polling
+2025-06-11 23:53:13,419 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-06-11 23:53:20,976 - aiogram.event - INFO - Update id=333501933 is handled. Duration 406 ms by bot id=7398033193
+2025-06-11 23:53:27,755 - aiogram.event - INFO - Update id=333501934 is handled. Duration 77 ms by bot id=7398033193
+2025-06-11 23:53:34,552 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:53:34,573 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:53:35,128 - aiogram.event - INFO - Update id=333501935 is handled. Duration 625 ms by bot id=7398033193
+2025-06-11 23:53:37,718 - core.utils.logger - INFO - Successful connection to the database!
+2025-06-11 23:53:37,828 - aiogram.event - INFO - Update id=333501936 is handled. Duration 125 ms by bot id=7398033193
+2025-06-12 00:22:30,447 - core.utils.logger - INFO - Starting bot...
+2025-06-12 00:22:30,449 - aiogram.dispatcher - INFO - Start polling
+2025-06-12 00:22:30,737 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-06-12 00:22:37,454 - handlers.base.start - INFO - Received /start command from user 557902017
+2025-06-12 00:22:37,932 - aiogram.event - INFO - Update id=333501937 is handled. Duration 500 ms by bot id=7398033193
+2025-06-12 00:23:12,326 - core.utils.logger - INFO - Starting bot...
+2025-06-12 00:23:12,326 - aiogram.dispatcher - INFO - Start polling
+2025-06-12 00:23:12,480 - aiogram.dispatcher - INFO - Run polling for bot @SearchMoviesYury_bot id=7398033193 - 'SearchMovies_bot'
+2025-06-12 00:23:15,405 - handlers.base.start - INFO - Received /start command from user 557902017
+2025-06-12 00:23:15,601 - aiogram.event - INFO - Update id=333501938 is handled. Duration 202 ms by bot id=7398033193
