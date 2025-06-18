@@ -88,7 +88,7 @@ movie-bot/
 ```
 
 ### 📬 Contact
-Maintained by Iurii Barynin
+Maintained by Yurybar93
 Pull requests and issues are welcome!
 
 Let me know if you want to add:
