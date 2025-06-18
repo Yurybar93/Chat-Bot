@@ -1,5 +1,5 @@
 
-CREATE TABLE `movies` (
+CREATE TABLE IF NOT EXISTS `movies` (
   `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `plot` VARCHAR(1024),
   `genres` SET('Drama', 'Comedy', 'Thriller', 'Music', 'Action', 'Adventure', 'Family', 'Romance', 'Documentary', 'Mystery', 'Sci-Fi', 'Biography', 'Horror', 'Fantasy', 'Animation', 'Crime', 'Sport', 'War', 'Short', 'History', 'News', 'Western', 'Musical') NULL,
@@ -5575,3 +5575,28 @@ VALUES
 ('Survivors of the Raccoon City catastrophe travel across the Nevada desert, hoping to make it to Alaska. Alice joins the caravan and their fight against the evil Umbrella Corp.','Action,Horror,Sci-Fi',94,'["Milla Jovovich","Oded Fehr","Ali Larter","Iain Glen"]','https://m.media-amazon.com/images/M/MV5BNDQ0MWI3MmEtMzM0OC00Y2ViLWE4MDItMzNhNmY1ZTdjMWE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_SX677_AL_.jpg','Resident Evil: Extinction','["English"]','["Russell Mulcahy"]','2 wins & 1 nomination.',2007,6.3,'movie'),
 ('A young widow discovers that her late husband has left her 10 messages intended to help ease her pain and start a new life.','Drama,Romance',126,'["Hilary Swank","Gerard Butler","Lisa Kudrow","Gina Gershon"]','https://m.media-amazon.com/images/M/MV5BNTg2MDg4MjI5NV5BMl5BanBnXkFtZTcwMzQ0MDczMw@@._V1_SY1000_SX677_AL_.jpg','P.S. I Love You','["English"]','["Richard LaGravenese"]','2 wins & 4 nominations.',2007,7.1,'movie'),
 ('A team of U.S. government agents is sent to investigate the bombing of an American facility in the Middle East.','Action,Drama,Thriller',110,'["Jamie Foxx","Chris Cooper","Jennifer Garner","Jason Bateman"]','https://m.media-amazon.com/images/M/MV5BMjA1MDIzOTYwMV5BMl5BanBnXkFtZTcwMTM5OTA1MQ@@._V1_SY1000_SX677_AL_.jpg','The Kingdom','["English","Arabic"]','["Peter Berg"]','5 nominations.',2007,7.1,'movie');
+
+CREATE TABLE IF NOT EXISTS `user_favorites` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `user_id` bigint NOT NULL,
+  `movie_id` int NOT NULL,
+  `added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_favorite` (`user_id`, `movie_id`),
+  KEY `movie_id` (`movie_id`),
+  CONSTRAINT `user_favorites_ibfk_1` FOREIGN KEY (`movie_id`) REFERENCES `movies` (`id`)
+) ENGINE=InnoDB 
+  AUTO_INCREMENT=1 
+  DEFAULT CHARSET=utf8mb4 
+  COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE IF NOT EXISTS `user_queries` (
+  `query_id` INT NOT NULL AUTO_INCREMENT,
+  `keyword` TEXT NOT NULL,
+  `search_date` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`query_id`)
+) ENGINE=InnoDB 
+  AUTO_INCREMENT=1 
+  DEFAULT CHARSET=utf8mb4 
+  COLLATE=utf8mb4_0900_ai_ci;
+
